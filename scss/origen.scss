@@ -1,0 +1,137 @@
+/* Este es un bloque de comentario */
+// comentario de linea
+
+// @import "colores";
+@import "pre_styles";
+@import "bs_scss/bootstrap.scss";
+
+
+//Generales
+
+$top_margin: 5%;
+
+
+@for $i from 1 through 6 {
+  // bloque repite
+  // #{$var}
+  h#{$i} { 
+      font: 2.5rem / $i;
+ }
+}
+
+
+.nav__brand--setup {
+    font-weight: bold;
+    color: rgb(104, 153, 218) !important;
+    text-decoration: none;
+    margin-right: 20vh !important;
+  }
+  
+  .nav__bar--setup {
+    font-weight: bold !important;
+    text-transform: uppercase;
+  
+  }
+
+  .footer__container--color{
+    background-color: rgb(104, 153, 218) !important;
+}
+
+
+//index
+
+  .carousel__products{
+      background-color: #e6d6d6;
+
+  }
+
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+
+  //Nosotros
+
+.ourVMV__container{
+    // background-color: #e6d6d6;
+    margin-top: $top_margin;
+    min-height:100vh;
+}
+
+.ourVMV__vision{
+    color: rgb(104, 153, 218);
+
+}
+
+.ourVMV__mision{
+  color: rgb(104, 153, 218);
+
+}
+
+.ourVMV__valores{
+  color: rgb(104, 153, 218);
+
+}
+
+.historia__container{
+  background-color: #7e6767 !important;
+  margin: 10%;
+}
+
+.historia__title{
+  color: rgb(104, 153, 218);
+}
+
+
+
+//productos
+
+  .productos__container{
+    margin-top: $top_margin;
+    min-height:100vh;
+  }
+
+  @for $i from 1 through 3 {
+    .products-#{$i} {
+        color: rgb(104, 153, 218);
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+  }
+
+  //soluciones
+
+  .solutions__container{
+    margin-top: $top_margin;
+    min-height:100vh;
+
+    section h2{
+      color: rgb(104, 153, 218);
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }
+
+
+//contacto
+
+.contact__container{
+  margin-top: $top_margin;
+  margin-left: 10%;
+  min-height:100vh;
+
+  h2{
+    color: rgb(104, 153, 218);
+    // margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+
+
+
