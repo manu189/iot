@@ -12,8 +12,7 @@ $top_margin: 5%;
 
 
 @for $i from 1 through 6 {
-  // bloque repite
-  // #{$var}
+
   h#{$i} { 
       font: 2.5rem / $i;
  }
@@ -58,7 +57,6 @@ $top_margin: 5%;
   //Nosotros
 
 .ourVMV__container{
-    // background-color: #e6d6d6;
     margin-top: $top_margin;
     min-height:100vh;
 }
@@ -127,7 +125,6 @@ $top_margin: 5%;
 
   h2{
     color: rgb(104, 153, 218);
-    // margin-top: 2%;
     margin-bottom: 2%;
   }
 }
