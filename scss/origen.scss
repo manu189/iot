@@ -40,7 +40,7 @@ $top_margin: 5%;
 //index
 
   .carousel__products{
-      background-color: #e6d6d6;
+      // background-color: #e6d6d6;
 
   }
 
@@ -59,6 +59,14 @@ $top_margin: 5%;
 .ourVMV__container{
     margin-top: $top_margin;
     min-height:100vh;
+    p{
+      text-align: center;
+    }
+
+    img{
+      width: 50%;
+      height: auto;
+    }
 }
 
 .ourVMV__vision{
@@ -76,14 +84,7 @@ $top_margin: 5%;
 
 }
 
-.historia__container{
-  background-color: #7e6767 !important;
-  margin: 10%;
-}
 
-.historia__title{
-  color: rgb(104, 153, 218);
-}
 
 
 
@@ -113,6 +114,15 @@ $top_margin: 5%;
       margin-top: 2%;
       margin-bottom: 2%;
     }
+
+    p{
+      text-align: center;
+    }
+
+    img{
+      width: 50%;
+      height: auto;
+    }
   }
 
 
@@ -127,6 +137,12 @@ $top_margin: 5%;
     color: rgb(104, 153, 218);
     margin-bottom: 2%;
   }
+}
+
+h2{
+  color: rgb(104, 153, 218);
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 

@@ -12,7 +12,6 @@ html {
   font-size: 16px; }
 
 body {
-  background-color: #e4dede;
   width: 100%;
   height: 100vh;
   min-height: 100%;
@@ -30,6 +29,9 @@ footer {
   padding: 20px;
   bottom: 0;
   position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  align-items: center;
   height: 60px;
   width: 100%; }
 
@@ -7879,9 +7881,6 @@ h6, .h6 {
 .footer__container--color {
   background-color: #6899da !important; }
 
-.carousel__products {
-  background-color: #e6d6d6; }
-
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important; }
 
@@ -7891,6 +7890,11 @@ h6, .h6 {
 .ourVMV__container {
   margin-top: 5%;
   min-height: 100vh; }
+  .ourVMV__container p {
+    text-align: center; }
+  .ourVMV__container img {
+    width: 50%;
+    height: auto; }
 
 .ourVMV__vision {
   color: #6899da; }
@@ -7899,13 +7903,6 @@ h6, .h6 {
   color: #6899da; }
 
 .ourVMV__valores {
-  color: #6899da; }
-
-.historia__container {
-  background-color: #7e6767 !important;
-  margin: 10%; }
-
-.historia__title {
   color: #6899da; }
 
 .productos__container {
@@ -7934,6 +7931,11 @@ h6, .h6 {
     color: #6899da;
     margin-top: 2%;
     margin-bottom: 2%; }
+  .solutions__container p {
+    text-align: center; }
+  .solutions__container img {
+    width: 50%;
+    height: auto; }
 
 .contact__container {
   margin-top: 5%;
@@ -7942,3 +7944,8 @@ h6, .h6 {
   .contact__container h2, .contact__container .h2 {
     color: #6899da;
     margin-bottom: 2%; }
+
+h2, .h2 {
+  color: #6899da;
+  margin-bottom: 2%;
+  text-align: center; }
